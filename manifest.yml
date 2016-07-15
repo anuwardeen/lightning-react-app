@@ -1,0 +1,8 @@
+---
+applications:
+- name: cfnode4_build
+  memory: 512M
+  instances: 1
+  host: cfnode4_build
+  buildpack: nodejs_buildpack
+  path: .
